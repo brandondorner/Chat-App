@@ -9,10 +9,10 @@ class App extends React.Component {
         return (
             <div className="app">
                 <h1>jhygjy</h1>
-                {/* <RoomList />
+                <RoomList />
                 <MessageList />
                 <SendMessageForm />
-                <NewRoomForm /> */}
+                <NewRoomForm />
             </div>
         );
     }
