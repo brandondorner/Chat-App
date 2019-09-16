@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+
+body .app {
+  border: red 1px solid;
+  color: red;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 70%;
+      grid-template-columns: 30% 70%;
+  -ms-grid-rows: 90% 10%;
+      grid-template-rows: 90% 10%;
+  height: 100vh;
+}
+
+body .app .room-list {
+  border: blue 1px solid;
+  padding: 5%;
+}
+
+body .app .message-list {
+  border: black 1px solid;
+  padding: 5%;
+}
+
+body .app .send-message-form {
+  border: green 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .app .new-room-form {
+  border: orange 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .app .new-room-form input {
+  width: 70%;
+}
+/*# sourceMappingURL=index.css.map */
