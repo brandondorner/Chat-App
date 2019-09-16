@@ -8,11 +8,10 @@ class App extends React.Component {
     render() {
         return (
             <div className="app">
-                <h1>jhygjy</h1>
                 <RoomList />
                 <MessageList />
-                <SendMessageForm />
                 <NewRoomForm />
+                <SendMessageForm />
             </div>
         );
     }

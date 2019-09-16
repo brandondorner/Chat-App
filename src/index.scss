@@ -2,18 +2,33 @@ body {
   margin: 0;
   width: 100%;
   .app{
+    border: red 1px solid;
     color: red;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 90% 10%;
+    height: 100vh;
     .room-list{
       border: blue 1px solid;
+      padding: 5%;
     }
     .message-list{
       border: black 1px solid;
+      padding: 5%;
+
     }
     .send-message-form{
       border: green 1px solid;
+      display: flex;
+      align-items: center;
     }
     .new-room-form{
       border: orange 1px solid;
+      display: flex;
+      align-items: center;
+      input{
+        width: 70%;
+      }
     }
   }
 }
